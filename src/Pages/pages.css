@@ -1,0 +1,27 @@
+
+
+.register{
+    position: absolute;
+    width: 500px;
+    height: 530px;
+    top: 200px;
+    left: 38%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+.goback{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+} 
+ 
+  
+ 
+  
+  
+  
+  
+  
+  

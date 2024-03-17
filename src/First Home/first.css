@@ -1,0 +1,231 @@
+
+
+.baner-image{
+    /* position: absolute; */
+    align-items: center;
+    width: 100%;
+}
+.nav-m{
+    position: absolute;
+    top: 0px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color: white;
+}
+.nav-first{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 1020px;
+    list-style: none;
+    display: flex;
+    gap: 7rem;
+    font-size: 19px;  
+    transition: all 1s; 
+}
+.nav-h{
+   
+    cursor: pointer;
+   margin-left: 20px;
+}
+.nav-h , img{
+    width: 150px;
+}
+.nav-button{
+    margin-left: 550px;
+}
+.nav-button ,button{
+  width: 100px;
+  height: 40px;
+  color: white;
+  background: none;
+
+  border: solid 1px white;
+}
+/* .nav-button ,button:hover{
+   margin-top: 10px;
+   color: red;
+} */
+.nav-items :hover{
+    
+    text-decoration:3px underline hsl(65, 76%, 52%) ;
+    transform: scale(1s);
+}
+
+.header-img{
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 1895px;
+}
+.header-text{
+    position: absolute;
+    width: 500px;
+    top: 800px;
+    left: 38%;
+}
+.header-text , p{
+    color: white;
+    font-size: 30px;
+}
+.header-btn{
+    font-size: medium;
+    background: none;
+    background-color: hsl(65, 86%, 41%);
+    color: white;
+    border: none;
+    width: 200px;
+    border-radius: 6px;
+    
+}
+.header-btn:hover{
+   padding: 10px;
+}
+
+.eleitepass{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(26, 25, 41);
+}
+
+.eleitepass-img{
+    position: absolute;
+    width: 100%;
+    top: 60 0px;
+    left: 0px;
+   
+}
+.elite-raw{
+    position: absolute;
+    position: absolute;
+    /* width: 100%; */
+    top: 1100px;
+    left: 250px;
+    
+}
+.elite-col{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(29, 25, 49);
+    margin: 40px;
+    /* width: 500px; */
+    height: 190px;
+    border: solid 0.01px white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.elite-h1{
+    font-size: 30px;
+    background-image: url('https://i2.wp.com/files.123freevectors.com/wp-content/original/116704-abstract-gold-blurry-lights-background-design.jpg?w=420');
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+}
+.elite-col , h4{
+    margin-top: 20px;
+    color: white;
+}
+.elite-col , p{
+    font-size: 15px;
+}
+.row2 :hover{
+    background-color: rgb(29, 25, 60);
+}
+.elite-h2{
+    font-size: 30px;
+    background-image: url('https://thumbs.dreamstime.com/b/silver-lights-background-bright-sparkling-47918633.jpg');
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+}
+.elite-h3{
+    font-size: 30px;
+    background-image: url('https://th.bing.com/th/id/OIP.rkeoTFTm8Z7ov0nEBcQz8gHaEK?rs=1&pid=ImgDetMain');
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+}
+.fitness-img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(26, 25, 41);
+    align-items: center;
+}
+.f-img{
+    width: 600px;
+    height: 450px;
+    align-items: center;
+    margin: 20px;
+}
+.f-h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+.carousal-h{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    left: 55%;
+    color: white;
+    text-align: center;
+}
+.carousal-h ,.c-h1{
+    font-size: 100px;
+}
+.carousal-h, p{
+    font-size: 20px;
+}
+.c-button{
+    position: absolute;
+    font-size: 18px;
+    bottom: 170px;
+    left: 38%;
+}
+.carousal-h1{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 100px;
+    left: 25%;
+    color: white;
+    text-align: center;
+}
+.carousal-h ,.c-h2{
+    font-size: 80px;
+}
+.carousal-h1, p{
+    font-size: 20px;
+}
+.carousal-h2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    left: 10%;
+    color: white;
+    text-align: center;
+}
+.carousal-h2 ,.c-h3{
+    font-size: 80px;
+}
+.carousal-h2, p{
+    font-size: 20px;
+}
+.c-span{
+    font-size: 30px;
+}
+.marque-col{
+    width: 400px;
+    height: 500px;
+}
+.marque-col{
+    margin: 20px;
+    width: 200px;
+}

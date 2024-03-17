@@ -1,0 +1,295 @@
+.baner-image{
+    /* position: absolute; */
+    align-items: center;
+    width: 100%;
+}
+.nav-m{
+    position: absolute;
+    top: 0px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    color: white;
+}
+.nav-items{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 450px;
+    list-style: none;
+    display: flex;
+    gap: 7rem;
+    font-size: 20px;  
+    transition: all 1s; 
+}
+.nav-h{
+   
+    cursor: pointer;
+   margin-left: 20px;
+}
+.nav-h , img{
+    width: 150px;
+}
+.nav-b{
+    margin-left: 530px;
+}
+
+/* .nav-button ,button:hover{
+   margin-top: 10px;
+   color: red;
+} */
+.nav-items :hover{
+    
+    text-decoration:3px underline hsl(65, 76%, 52%) ;
+    transform: scale(1s);
+}
+
+.header-img{
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 1730px;
+}
+.header-text{
+    position: absolute;
+    width: 500px;
+    top: 800px;
+    left: 38%;
+}
+.header-text , p{
+    color: white;
+    font-size: 30px;
+}
+.header-btn{
+    font-size: medium;
+    background: none;
+    background-color: hsl(65, 86%, 41%);
+    color: white;
+    border: none;
+    width: 200px;
+    border-radius: 6px;
+    
+}
+.header-btn:hover{
+   padding: 10px;
+}
+
+.eleitepass{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(26, 25, 41);
+}
+
+.eleitepass-img{
+    position: absolute;
+    width: 100%;
+    top: 670px;
+    left: 0px;
+   
+}
+.elite-raw{
+    position: absolute;
+    position: absolute;
+    /* width: 100%; */
+    top: 1200px;
+    left: 290px;
+    
+}
+.elite-col{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(29, 25, 49);
+    margin: 40px;
+    /* width: 500px; */
+    height: 190px;
+    border: solid 0.01px white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.elite-h1{
+    font-size: 30px;
+    background-image: url('https://i2.wp.com/files.123freevectors.com/wp-content/original/116704-abstract-gold-blurry-lights-background-design.jpg?w=420');
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+}
+.elite-col , h4{
+    margin-top: 20px;
+    color: white;
+}
+.elite-col , p{
+    font-size: 15px;
+}
+.row2 :hover{
+    background-color: rgb(29, 25, 60);
+}
+.elite-h2{
+    font-size: 30px;
+    background-image: url('https://thumbs.dreamstime.com/b/silver-lights-background-bright-sparkling-47918633.jpg');
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+}
+.elite-h3{
+    font-size: 30px;
+    background-image: url('https://th.bing.com/th/id/OIP.rkeoTFTm8Z7ov0nEBcQz8gHaEK?rs=1&pid=ImgDetMain');
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+}
+.fitness-img{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(26, 25, 41);
+    align-items: center;
+}
+.f-img{
+    width: 600px;
+    height: 450px;
+    align-items: center;
+    margin: 20px;
+}
+.f-h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+.carousal-h{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    left: 55%;
+    color: white;
+    text-align: center;
+}
+.carousal-h ,.c-h1{
+    font-size: 100px;
+}
+.carousal-h, p{
+    font-size: 20px;
+}
+.c-button{
+    position: absolute;
+    font-size: 18px;
+    bottom: 170px;
+    left: 38%;
+}
+.carousal-h1{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 100px;
+    left: 25%;
+    color: white;
+    text-align: center;
+}
+.carousal-h ,.c-h2{
+    font-size: 100px;
+}
+.carousal-h1, p{
+    font-size: 20px;
+}
+.carousal-h2{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    left: 10%;
+    color: white;
+    text-align: center;
+}
+.carousal-h2 ,.c-h3{
+    font-size: 100px;
+}
+.carousal-h2, p{
+    font-size: 20px;
+}
+.c-span{
+    font-size: 30px;
+}
+.marque-col{
+    width: 400px;
+    height: 500px;
+}
+.marque-col{
+    margin: 20px;
+    width: 200px;
+}
+.Btn {
+    --black: #000000;
+    --ch-black: #141414;
+    --eer-black: #1b1b1b;
+    --night-rider: #2e2e2e;
+    --white: #ffffff;
+    --af-white: #f3f3f3;
+    --ch-white: #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: var(--af-white);
+  }
+  
+  /* plus sign */
+  .sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 17px;
+  }
+  
+  .sign svg path {
+    fill: var(--night-rider);
+  }
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: var(--night-rider);
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+  /* hover effect on button width */
+  .Btn:hover {
+    width: 110px;
+    border-radius: 5px;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+  }
+  /* hover effect button's text */
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+  }
+  /* button click effect*/
+  .Btn:active {
+    transform: translate(2px ,2px);
+  }
